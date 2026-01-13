@@ -74,10 +74,10 @@ export default function Home() {
           </div>
           
           <h2 className="font-serif text-3xl md:text-5xl leading-tight text-neutral-900">
-            "We believe in the raw, unpolished beauty of honest food. No pretentious presentation, just exceptional flavors rooted in Berlin's dynamic culture."
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </h2>
           <p className="font-sans text-neutral-500 max-w-2xl mx-auto leading-relaxed">
-            Our approach is simple: high quality ingredients, ethically sourced coffee, and food that comforts the soul without harming the planet. VUX is a space for thinkers, creators, and coffee lovers.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
       </section>

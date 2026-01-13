@@ -13,8 +13,6 @@ export function Footer() {
           </Link>
           <p className="font-serif text-neutral-400 max-w-xs">
             Specialty Coffee. Steamed Bao Buns. All Vegan.
-            <br />
-            Berlin Minimalist Soul.
           </p>
         </div>
 
