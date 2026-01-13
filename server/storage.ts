@@ -53,7 +53,7 @@ export class DatabaseStorage implements IStorage {
     if (existingGallery.length === 0) {
       await db.insert(galleryItems).values([
         { imageUrl: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop", caption: "Morning light", altText: "Coffee cup in sunlight" },
-        { imageUrl: "https://images.unsplash.com/photo-1561758033-d8f19662cb23?q=80&w=800&auto=format&fit=crop", caption: "Bao selection", altText: "Steamed buns on a plate" },
+        { imageUrl: "https://images.unsplash.com/photo-1598965402089-897ce52e8355?q=80&w=800&auto=format&fit=crop", caption: "Bao selection", altText: "Steamed buns on a plate" },
         { imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop", caption: "Berlin vibes", altText: "Minimalist cafe interior" },
         { imageUrl: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop", caption: "Plant based", altText: "Healthy green food" },
         { imageUrl: "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=800&auto=format&fit=crop", caption: "Coffee art", altText: "Latte art close up" },
