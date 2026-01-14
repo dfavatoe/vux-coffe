@@ -148,11 +148,12 @@ export default function Home() {
                 <a href="#" className="font-display text-xs uppercase font-bold tracking-widest hover:underline">Facebook</a>
               </div>
             </div>
-            <div className="h-96 bg-neutral-100 grayscale border border-neutral-200 relative overflow-hidden">
+            <div className="h-96 bg-neutral-100 grayscale hover:grayscale-0 border border-neutral-200 relative overflow-hidden transition-all duration-500">
               <iframe 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, opacity: 0.6 }}
+                className="hover:opacity-100 transition-opacity duration-500"
                 loading="lazy" 
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
