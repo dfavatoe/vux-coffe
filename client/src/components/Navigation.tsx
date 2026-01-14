@@ -26,7 +26,7 @@ export function Navigation() {
   const links = [
     { id: "about", label: "About" },
     { id: "menu", label: "Menu" },
-    { id: "gallery", label: "Mood" },
+    { id: "gallery", label: "Gallery" },
     { id: "visit", label: "Visit" },
   ];
 

@@ -13,7 +13,10 @@ const STATIC_MENU = [
 const STATIC_GALLERY = [
   { url: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800", caption: "Morning light" },
   { url: "https://images.unsplash.com/photo-1598965402089-897ce52e8355?q=80&w=800", caption: "Bao selection" },
-  { url: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800", caption: "Berlin vibes" }
+  { url: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800", caption: "Berlin vibes" },
+  { url: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800", caption: "Plant based" },
+  { url: "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=800", caption: "Coffee art" },
+  { url: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800", caption: "Details" }
 ];
 
 const STATIC_HOURS = [
@@ -145,8 +148,16 @@ export default function Home() {
                 <a href="#" className="font-display text-xs uppercase font-bold tracking-widest hover:underline">Facebook</a>
               </div>
             </div>
-            <div className="h-80 bg-neutral-100 grayscale border border-neutral-200 flex items-center justify-center">
-              <MapPin className="w-8 h-8 text-neutral-300" />
+            <div className="h-96 bg-neutral-100 grayscale border border-neutral-200 relative overflow-hidden">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0, opacity: 0.6 }}
+                loading="lazy" 
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.5856468763266!2d13.444747776156545!3d52.4761401464878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fa734919077%3A0x6b8220025c83f253!2sWipperstra%C3%9Fe%2014%2C%2012055%20Berlin%2C%20Germany!5e0!3m2!1sen!2sus!4v1715631221589!5m2!1sen!2sus"
+              ></iframe>
             </div>
           </div>
         </div>
