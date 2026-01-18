@@ -1,1 +1,0 @@
-export {}; // Just a placeholder, as the app is now static.
