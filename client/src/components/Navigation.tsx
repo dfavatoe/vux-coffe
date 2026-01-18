@@ -1,4 +1,3 @@
-import { Link, useLocation } from "wouter";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,7 +17,7 @@ export function Navigation() {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
@@ -33,7 +32,7 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-black/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <button 
+        <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="text-3xl font-bold tracking-tighter uppercase font-display hover:opacity-70 transition-opacity"
         >
@@ -54,7 +53,7 @@ export function Navigation() {
         </div>
 
         {/* Mobile Toggle */}
-        <button 
+        <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden p-2 hover:bg-neutral-100 rounded-none transition-colors"
         >
